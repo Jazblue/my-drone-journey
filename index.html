@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Drone Journey | Learning to Fly and Photograph Kent</title>
+  <meta name="description" content="A personal drone journey: my first budget drone, lessons learned the hard way, why I recommend DJI, and getting outdoors to capture aerial photographs in Kent.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://jazblue.github.io/my-drone-journey/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="My Drone Journey">
+  <meta property="og:description" content="Real-world lessons from learning to fly drones, choosing DJI and enjoying aerial photography in Kent.">
+  <meta property="og:url" content="https://jazblue.github.io/my-drone-journey/">
+  <meta name="theme-color" content="#10251f">
+  <style>
+    :root{color-scheme:light;--ink:#172a25;--muted:#53645e;--paper:#f6f5ef;--card:#fff;--green:#245a45;--lime:#d8ef91;--line:#dce2d8;--dark:#10251f}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:#245a45;text-underline-offset:4px}
+    a:focus-visible{outline:3px solid #b2d65f;outline-offset:4px}
+    .wrap{width:min(1080px,calc(100% - 36px));margin-inline:auto}
+    header{background:var(--dark);color:#fff}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 0}
+    .brand{font-weight:800;letter-spacing:.02em;color:#fff;text-decoration:none}
+    .navlinks{display:flex;gap:18px;flex-wrap:wrap}
+    .navlinks a{color:#e5f0e7;text-decoration:none;font-size:.94rem}
+    .hero{padding:76px 0 82px;background:radial-gradient(ellipse at 85% 15%,#3c7153 0,transparent 36%),linear-gradient(135deg,#10251f,#1d4434);color:white}
+    .eyebrow{display:inline-block;color:var(--lime);font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+    h1{font-size:clamp(2.6rem,7vw,5.2rem);line-height:1.03;letter-spacing:-.055em;max-width:850px;margin:18px 0}
+    .hero p{max-width:700px;font-size:clamp(1.05rem,2vw,1.25rem);color:#e0e9e0}
+    .buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-block;padding:11px 17px;border-radius:999px;background:var(--lime);color:#183426;font-weight:750;text-decoration:none}
+    .btn.secondary{background:transparent;border:1px solid #8ea99a;color:#fff}
+    main{padding:42px 0 70px}
+    .intro{max-width:760px;margin:0 auto 34px}
+    .intro h2,.section-heading{font-size:clamp(1.7rem,4vw,2.5rem);line-height:1.2;letter-spacing:-.03em}
+    .story-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    article,.note,.links-card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:25px;box-shadow:0 8px 24px rgba(25,52,40,.035)}
+    article h3{font-size:1.28rem;line-height:1.3;margin:8px 0 12px}
+    article p{margin:0 0 12px}
+    .number{font-size:.78rem;font-weight:850;color:var(--green);letter-spacing:.12em;text-transform:uppercase}
+    .wide{grid-column:1/-1}
+    .note{background:#eef3e6;margin-top:20px}
+    .note h3{margin-top:0}
+    .specs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:18px}
+    .spec{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px}
+    .spec strong{display:block;font-size:1.08rem}
+    .spec span{display:block;color:var(--muted);font-size:.9rem}
+    .links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px}
+    .links-card h3{margin:0 0 8px}
+    .links-card p{margin:0 0 12px;color:var(--muted)}
+    footer{background:var(--dark);color:#d8e5dc;padding:28px 0}
+    footer p{margin:4px 0}
+    footer a{color:var(--lime)}
+    .small{font-size:.9rem;color:var(--muted)}
+    @media(max-width:700px){.nav{align-items:flex-start;flex-direction:column}.hero{padding:56px 0}.story-grid,.links,.specs{grid-template-columns:1fr}.wide{grid-column:auto}article,.note,.links-card{padding:20px}.wrap{width:min(100% - 28px,1080px)}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Blog",
+    "name":"My Drone Journey",
+    "url":"https://jazblue.github.io/my-drone-journey/",
+    "description":"Personal experiences and lessons from learning to fly drones and take aerial photographs in Kent.",
+    "inLanguage":"en-GB"
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="https://jayskentdrones.pro/">Jays Kent Drones</a>
+      <nav class="navlinks" aria-label="Main navigation">
+        <a href="#story">My story</a>
+        <a href="#lessons">Lessons learned</a>
+        <a href="#gear">My current setup</a>
+        <a href="https://jazblue.github.io/drone-gallery/">Photo gallery</a>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">A personal drone diary</span>
+      <h1>My drone journey:<br>learning as I go.</h1>
+      <p>It started with a roughly £90 drone I found on TikTok. Since then, I’ve learned a lot about GPS, control, safety, batteries and the simple pleasure of getting outside with a camera in the sky.</p>
+      <div class="buttons">
+        <a class="btn" href="https://jazblue.github.io/drone-gallery/">See my aerial photographs</a>
+        <a class="btn secondary" href="#lessons">The lessons I learned</a>
+      </div>
+    </div>
+  </section>
+  <main class="wrap">
+    <section class="intro" id="story">
+      <span class="eyebrow" style="color:#245a45">Why I made this page</span>
+      <h2>It’s not just about the drone. It’s about getting out there.</h2>
+      <p>I wanted to share the real experience of trying a few drones, making mistakes, and finding something I enjoy. This isn’t a professional technical review: it’s my own experience, including what I’d do differently next time.</p>
+    </section>
+    <section class="story-grid" aria-label="My drone experiences">
+      <article>
+        <div class="number">01 · The first drone</div>
+        <h3>A budget drone and a day out with my son</h3>
+        <p>My first drone cost around £90 and I think I bought it through TikTok. My son and I took it out together, which was great fun, but the GPS positioning and control didn’t feel very dependable.</p>
+        <p>That first flight taught me that a low price can be tempting, but stable positioning and predictable controls matter when you’re trying to enjoy flying and get usable photographs.</p>
+      </article>
+      <article>
+        <div class="number">02 · A better experience</div>
+        <h3>Why I started recommending DJI</h3>
+        <p>My next drone was a DJI. I found the GPS and controls much better, and it gave me more confidence when flying. DJI models can cost more — often a few hundred pounds depending on the model and offers — but I personally found the difference worthwhile.</p>
+        <p>That’s my experience rather than a guarantee that every drone or every flight will behave perfectly. It’s still worth comparing features and prices before buying.</p>
+      </article>
+      <article class="wide">
+        <div class="number">03 · The tree incident</div>
+        <h3>The mistake I won’t forget</h3>
+        <p>I once flew my DJI near an Audi site and got it stuck in a tree. I hadn’t planned the surroundings as carefully as I should have. I was also worried about the cars and the road nearby, and I didn’t want to put myself or anyone else at risk trying to retrieve it.</p>
+        <p>I contacted the site, but help wasn’t straightforward. I believe the drone was eventually brought down, although I can’t be certain exactly what happened. The main lesson was clear: check trees, roads, vehicles, people and a safe landing area before taking off. If a drone gets stuck somewhere dangerous, don’t climb or put yourself at risk to retrieve it.</p>
+      </article>
+      <article>
+        <div class="number">04 · My latest drone</div>
+        <h3>Back out with the DJI Mini 4K</h3>
+        <p>My current drone is the DJI Mini 4K. I’ve been pleased with the camera, and on my latest outing I spent about an hour outside taking photographs in the sunshine. I came home with pictures I was genuinely happy with.</p>
+        <p>The battery seemed to give me a good amount of time, too, although flight time varies with conditions, settings and how the battery is used. The best part was simply stepping away from the computer, getting some fresh air and enjoying being outdoors.</p>
+      </article>
+      <article>
+        <div class="number">05 · What I’m still learning</div>
+        <h3>Warnings are helpful — but looking around is essential</h3>
+        <p>Modern drones have useful safety information and flight features, but I’m still learning exactly what each warning or feature can and cannot detect. I never want to treat technology as a substitute for checking the area with my own eyes.</p>
+        <p>Before flying, I check the surroundings, weather, people, roads, trees and the planned landing area. I also check the current UK rules and any restrictions that apply to the location.</p>
+      </article>
+    </section>
+    <section id="lessons" style="margin-top:48px">
+      <span class="eyebrow" style="color:#245a45">Things I’d tell another beginner</span>
+      <h2 class="section-heading">A few lessons from my first flights</h2>
+      <div class="story-grid">
+        <article><h3>Plan the whole flight</h3><p>Look beyond the view you want to capture. Check trees, buildings, roads, vehicles, people, take-off space and somewhere safe to land before you launch.</p></article>
+        <article><h3>Don’t rely on warnings alone</h3><p>GPS and safety features can help, but they don’t remove the need to keep the drone in sight, stay aware of your surroundings and follow the rules.</p></article>
+        <article><h3>Give yourself time</h3><p>Keep early flights simple, leave a sensible battery reserve to return and land, and don’t take risks trying to recover a drone from a dangerous place.</p></article>
+        <article><h3>Compare before buying</h3><p>I found prices could differ between the DJI website and Amazon. Compare the exact model, what’s included, warranty and delivery rather than choosing on headline price alone.</p></article>
+      </div>
+    </section>
+    <section id="gear" style="margin-top:48px">
+      <span class="eyebrow" style="color:#245a45">My current setup</span>
+      <h2 class="section-heading">DJI Mini 4K and the memory card</h2>
+      <p>I initially bought the wrong size of memory card, so it’s worth checking the format and speed rating before ordering. For the DJI Mini 4K, the card we discussed was:</p>
+      <div class="specs">
+        <div class="spec"><strong>64GB microSD</strong><span>Capacity</span></div>
+        <div class="spec"><strong>UHS-I · U3</strong><span>Bus and speed class</span></div>
+        <div class="spec"><strong>V30 · Class 10</strong><span>Video speed rating</span></div>
+      </div>
+      <div class="note">
+        <h3>My memory-card tip</h3>
+        <p>Look for a <strong>microSD card</strong> marked UHS-I, U3 and V30 (Class 10). The card we discussed was a 64GB Lexar card with those ratings. “U3” is the correct marking — not “U30”. Check the current DJI Mini 4K specifications and the card’s authenticity before buying, then format the card in the drone before recording.</p>
+      </div>
+      <p class="small">This is a personal note, not a guarantee of battery life or a substitute for checking the manufacturer’s current specifications and UK flying requirements.</p>
+    </section>
+    <section style="margin-top:48px">
+      <span class="eyebrow" style="color:#245a45">Explore more</span>
+      <h2 class="section-heading">From my experience to my photographs</h2>
+      <div class="links">
+        <div class="links-card">
+          <h3>My drone photo gallery</h3>
+          <p>Browse the aerial photographs I’ve been taking around my outings.</p>
+          <a href="https://jazblue.github.io/drone-gallery/">Visit the gallery →</a>
+        </div>
+        <div class="links-card">
+          <h3>Jays Kent Drones</h3>
+          <p>Visit my main drone website for more about the project and enquiries.</p>
+          <a href="https://jayskentdrones.pro/">Visit the main website →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <p><strong>My Drone Journey</strong> — personal experiences from learning to fly.</p>
+      <p><a href="https://jayskentdrones.pro/">Jays Kent Drones</a> · <a href="https://jazblue.github.io/drone-gallery/">Photo gallery</a></p>
+    </div>
+  </footer>
+</body>
+</html>
